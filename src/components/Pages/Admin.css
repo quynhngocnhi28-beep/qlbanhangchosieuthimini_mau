@@ -489,6 +489,30 @@ body {
 }
 
 /* ==========================================================================
+   ADMINBILL COMPONENTS (Giữ cấu trúc cũ, đổi màu)
+   ========================================================================== */
+.admin-bill-container form button[type="submit"] {
+  background: linear-gradient(135deg, #1a472a, #0a2d18);
+  color: #ffffff;
+  border: none;
+}
+
+.admin-bill-container form button[type="submit"]:hover {
+  background: linear-gradient(135deg, #2d5a3d, #1a472a);
+}
+
+.admin-bill-container form button[type="button"] {
+  background: #e8f0e8;
+  color: #1a472a;
+  border: 1px solid #d6e1d6;
+}
+
+.admin-bill-container form button[type="button"]:hover {
+  background: #d6e1d6;
+  color: #ffffff;
+}
+
+/* ==========================================================================
    RESPONSIVE
    ========================================================================== */
 @media (max-width: 968px) {
